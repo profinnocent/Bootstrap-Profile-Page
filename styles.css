@@ -8,6 +8,34 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    animation: slider 30s ease-in-out infinite;
+}
+
+@keyframes slider {
+    0%{
+        background-image: url(../images/ppix2.jpg);
+    }
+    20%{
+        background-image: url(../images/ppix2.jpg);
+    }
+    25%{
+        background-image: url(../images/ppix1.jpg);
+    }
+    45%{
+        background-image: url(../images/ppix1.jpg);
+    }
+    50%{
+        background-image: url(../images/ppix4.jpg);
+    }
+    70%{
+        background-image: url(../images/ppix4.jpg);
+    }
+    75%{
+        background-image: url(../images/ppix2.jpg);
+    }
+    100%{
+        background-image: url(../images/ppix2.jpg);
+    }
 }
 
 #secondsec{
